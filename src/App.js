@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -25,12 +25,12 @@ function App() {
           <h1 class='text-3xl font-bold'>TokoKeren</h1>
           <div className='flex w-full justify-center'>
             <input type="text" className='bg-gray-100 w-3/4 h-5/5 focus:outline-blue-300 rounded-2xl text-lg pl-3' placeholder='Search Products, Categories ...'/>
-            <img src="images/search-icon.png" className='w-4 h-4 self-center -ml-6' alt=""></img>
+            <img src="images/search-icon.png" className='w-4 h-4 self-center -ml-6' alt="search-icon.png"></img>
           </div>
           <div className='flex gap-5'>
-            <img src="/images/user-icon.png" className='w-7 h-7 self-center' alt=""></img>
+            <img src="/images/user-icon.png" className='w-7 h-7 self-center' alt="user-icon.png"></img>
             <div className="relative w-9 h-9">  
-              <img src="/images/cart-icon.png" className='w-full h-full self-center' alt=""></img>
+              <img src="/images/cart-icon.png" className='w-full h-full self-center' alt="cart-icon.png"></img>
                 <div className='absolute -bottom-2 -left-1 text-xs bg-red-500 rounded-full w-4 h-4 text-center text-white font-bold'>4</div>
             </div>  
           </div>
@@ -177,7 +177,7 @@ function App() {
     <div className='w-full md:w-2/2 xl:w-1/4 px-4 mb-10'>
       <div className='p-3 border-2 border-gray-300 rounded-lg shadow-md text-gray-800'>
         <span className='z-10 absolute text-xs font-semibold text-green-600 bg-green-100 rounded-2xl py-1 px-3 m-2'>-36%</span>
-        <img className='object-fill-relative' src="/images/pizza.jpg" alt=""></img>
+        <img className='object-fill-relative' h-30 src="/images/pizza.jpg" alt=""></img>
       
         <div className='pt-5 mb-4'>
           <h1 className='font-bold'>Pizza Hut</h1>
@@ -270,105 +270,10 @@ function App() {
       </div>
     </div>
 
-    <div className='w-full md:w-2/2 xl:w-1/4 px-4 mb-10'>
-      <div className='p-3 border-2 border-gray-300 rounded-lg shadow-md text-gray-800'>
-        <span className='z-10 absolute text-xs font-semibold text-green-600 bg-green-100 rounded-2xl py-1 px-3 m-2'>-36%</span>
-        <img className='object-fill-relative' src="/images/bolu-lapis.jpg" alt=""></img>
-      
-        <div className='pt-5 mb-4'>
-          <h1 className='font-bold'>Bolu Lapis</h1>
-          <span className='text-sm text-gray-500'>Lapisan legit disetiap sentuhan</span>
-        </div>
-
-        <div className='flex justify-between'>
-          <div className=''>
-            <h1 className='text-lg font-bold'>Rp 42.000</h1>
-            
-          </div>
-          <div className=''>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Buy
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className='w-full md:w-2/2 xl:w-1/4 px-4 mb-10'>
-      <div className='p-3 border-2 border-gray-300 rounded-lg shadow-md text-gray-800'>
-        <span className='z-10 absolute text-xs font-semibold text-green-600 bg-green-100 rounded-2xl py-1 px-3 m-2'>-36%</span>
-        <img className='object-fill-relative' src="/images/donat.jpg" alt=""></img>
-      
-        <div className='pt-5 mb-4'>
-          <h1 className='font-bold'>Donat</h1>
-          <span className='text-sm text-gray-500'>Rasa Donat</span>
-        </div>
-
-        <div className='flex justify-between'>
-          <div className=''>
-            <h1 className='text-lg font-bold'>Rp 15.000</h1>
-            
-          </div>
-          <div className=''>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Buy
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className='w-full md:w-2/2 xl:w-1/4 px-4 mb-10'>
-      <div className='p-3 border-2 border-gray-300 rounded-lg shadow-md text-gray-800'>
-        <span className='z-10 absolute text-xs font-semibold text-green-600 bg-green-100 rounded-2xl py-1 px-3 m-2'>-36%</span>
-        <img className='object-fill-relative' src="/images/pizza.jpg" alt=""></img>
-      
-        <div className='pt-5 mb-4'>
-          <h1 className='font-bold'>Pizza Hut</h1>
-          <span className='text-sm text-gray-500'>Potongan penuh nikmat</span>
-        </div>
-
-        <div className='flex justify-between'>
-          <div className=''>
-            <h1 className='text-lg font-bold'>Rp 30.000</h1>
-            <h2 className='text-sm text-gray-400 font-semibold line-through'>Rp 35.000</h2>
-          </div>
-          <div className=''>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Buy
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div className='w-full md:w-2/2 xl:w-1/4 px-4 mb-10'>
-      <div className='p-3 border-2 border-gray-300 rounded-lg shadow-md text-gray-800'>
-        <span className='z-10 absolute text-xs font-semibold text-green-600 bg-green-100 rounded-2xl py-1 px-3 m-2'>-36%</span>
-        <img className='object-fill-relative' src="/images/mata-sapi.jpg" alt=""></img>
-      
-        <div className='pt-5 mb-4'>
-          <h1 className='font-bold'>Mata Sapi</h1>
-          <span className='text-sm text-gray-500'>Penuh mata mata</span>
-        </div>
-
-        <div className='flex justify-between'>
-          <div className=''>
-            <h1 className='text-lg font-bold'>Rp 12.000</h1>
-             
-          </div>
-          <div className=''>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Buy
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
 
-
-
+    
     
     <div className='w-full h-1/4 flex justify-center item-center'>
       <a className='flex bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full' href ="/Product">Show More Product</a>  
