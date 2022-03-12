@@ -186,7 +186,7 @@ function App() {
 
         <div className='flex justify-between'>
           <div className=''>
-            <h1 className='text-lg font-bold'>Rp 30.000</h1>
+            <h1 className='text-lg font-bold mb-15'>Rp 30.000</h1>
             <h2 className='text-sm text-gray-400 font-semibold line-through'>Rp 35.000</h2>
           </div>
           <div className=''>
@@ -210,7 +210,7 @@ function App() {
 
         <div className='flex justify-between'>
           <div className=''>
-            <h1 className='text-lg font-bold'>Rp 12.000</h1>
+            <h1 className='text-lg font-bold mb-18'>Rp 12.000</h1>
              
           </div>
           <div className=''>
